@@ -1,0 +1,24 @@
+{
+	"queries": [
+		{
+			"statement": "SELECT * FROM sales WHERE date = %s",
+			"params": ["2016-09-12"],
+			"results": {
+				"columns": ["id", "date", "sales"],
+				"data": [
+					[1, "2016-09-12", 1]
+				]
+			}
+		},
+		{
+			"statement": "SELECT * FROM sales WHERE date = %s",
+			"params": ["2016-09-13"],
+			"results": {
+				"columns": ["id", "date", "sales"],
+				"data": [
+					[2, "2016-09-13", 52]
+				]
+			}
+		}
+	]
+}

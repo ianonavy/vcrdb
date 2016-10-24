@@ -1,0 +1,1 @@
+{"queries": [{"params": ["2016-09-13"], "results": {"data": [], "columns": ["id", "date", "sales"]}, "statement": "SELECT * FROM sales WHERE date = ?"}]}
